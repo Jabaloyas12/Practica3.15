@@ -1,0 +1,44 @@
+input.a {
+    width: 250px;
+}
+input.B {
+    width: 250px; height: 50px;
+}
+button {
+    background-color: orange;
+    color: white;
+    width: 20em;
+    border-color: white;
+    border-radius: 1em;
+    height: 3em;
+    cursor: pointer;
+}
+input.primer{
+    height: 40px; width: 500px;
+}
+input.B{
+    height: 40px; width: 238px;
+}
+input.C{
+    margin-left: 10px;
+}
+.seleccionable{
+    height: 43px; width: 245px;
+
+}
+
+@font-face {
+    font-family: NotoColorEmojiLimited;
+    unicode-range: U+1F1E6-1F1FF;
+    src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+  }
+  
+  select {
+    font-family: 'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
+  button.Z{
+    background-color: green;
+    color: white;
+  }
